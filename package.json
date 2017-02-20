@@ -1,0 +1,68 @@
+{
+  "name": "helper-sort-items",
+  "description": "Helper for filtering and sorting an assemble collection based on an array of strings.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/helpers/helper-sort-items",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "helpers/helper-sort-items",
+  "bugs": {
+    "url": "https://github.com/helpers/helper-sort-items/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "compile",
+    "filter",
+    "helper",
+    "helpers",
+    "items",
+    "render",
+    "template",
+    "templates"
+  ],
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "isobject": "^3.0.0",
+    "markdown-slug": "^0.1.1"
+  },
+  "devDependencies": {
+    "assemble": "^0.23.0",
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "handlebars-helpers",
+        "template-helpers"
+      ]
+    },
+    "reflinks": [
+      "generate",
+      "generate-helper",
+      "helpers",
+      "assemble",
+      "handlebars"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
